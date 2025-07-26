@@ -50,5 +50,5 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 
 -- [[ TMUX Shortcuts ]] --
 vim.keymap.set('n', '<leader>tw', function()
-  vim.fn.system 'tmux split-window -v
+  vim.fn.system 'tmux split-window -v'
   end, { desc = 'Create a split window in current tmux session' })
